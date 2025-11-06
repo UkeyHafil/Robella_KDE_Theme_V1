@@ -1,4 +1,7 @@
 # Robella_KDE_Theme_V1
+
+please be wary that i'm not github master, coding is not my priority yet. so i'm apologize for this mess
+
 i have updated this github wih updated stuff and this is officially one of my fully customize theme. since this is V1. dont expect too much with hyprland, rofi ect.
 Here is the konsave file: https://limewire.com/d/3B8uF#Oxkv7wV7Hn 
 all below here is gui guides for todo the files.
