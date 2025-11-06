@@ -1,109 +1,123 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
     "logo": {
-       "type": "kitty",
+       "type": "chafa",
        "source": "~/.config/fastfetch/robella.png",
-       "height": 19
+       "height": 18
     },
     "display": {
+        "size":{
+            "binaryPrefix": "jedec"
+                },
         "separator": "  ",
         "constants": [
-            "───────────────"
-        ]
+            "────────────────"
+            ]
     },
     "modules": [
             "break",
         {
             "type": "custom",
-            "format": "┌{$1}Operating System{$1}┐",
-            "outputColor": "#ffed00"
+            "format": "┌─{$1}Operating System{$1}┐",
+            "outputColor": "#FFCE53"
         },
         {
             "type": "os",
             "key": "{icon} OS",
-            "keyColor": "#ffed00"
+            "keyColor": "#FFCE53"
         },
         {
             "type": "kernel",
             "key": "│ ├",
-            "keyColor": "#ffed00"
-        },
-         {
-            "type": "custom",
-            "format": "└{$1}{$1}─{$1}┘",
-            "outputColor": "#ffed00"
-        },
-            "break",
-        {
-            "type": "custom",
-            "format": "┌───{$1}Environment{$1}──┐",
-            "outputColor": "#ffd200"
-        },
-        {
-            "type": "wm",
-            "key": " DE/WM",
-            "keyColor": "#ffd200"
+            "keyColor": "#FFCE53"
         },
         {
             "type": "lm",
             "key": "│ ├󰧨",
-            "keyColor": "#ffd200"
+            "keyColor": "#FFCE53"
+        },
+         {
+            "type": "custom",
+            "format": "└{$1}{$1}─{$1}┘",
+            "outputColor": "#FFCE53"
+        },
+            "break",
+        {
+            "type": "custom",
+            "format": "┌─────{$1}Hardware{$1}────┐",
+            "outputColor": "#DDB043"
         },
         {
             "type": "host",
+            "format": "Lenovo {1}",
             "key": "󰌢 PC",
-            "keyColor": "#ebb000"
+            "keyColor": "#DDB043"
+        },
+        {
+            "type": "cpu",
+            "format": "{name}",
+            "key": "│ ├󰻠",
+            "keyColor": "#DDB043"
         },
         {
             "type": "gpu",
-            "key": "│ ├󰍛",
-            "keyColor": "#ebb000"
+            "key": "│ ├",
+            "keyColor": "#DDB043"
+        },
+        {
+            "type": "display",
+            "key": "│ ├",
+            "keyColor": "#DDB043"
         },
         {
             "type": "disk",
             "key": "│ ├",
-            "keyColor": "#ebb000"
+            "keyColor": "#DDB043"
         },
         {
             "type": "memory",
             "key": "│ ├󰑭",
-            "keyColor": "#ebb000"
+            "keyColor": "#DDB043"
         },
         {
             "type": "custom",
             "format": "└{$1}{$1}─{$1}┘",
-            "outputColor": "#ebb000"
+            "outputColor": "#DDB043"
         },
             "break",
         {
             "type": "custom",
             "format": "┌───{$1}Active Time{$1}──┐",
-            "outputColor": "#e08d00"
+            "outputColor": "#CB942E"
         },
         {
              "type": "command",
              "text": "birth_install=$(stat -c %W /); current=$(date +%s); days_difference=$(( (current - birth_install) / 86400 )); echo $days_difference days",
-            "key": "{icon} OS AGE  ",
-            "keyColor": "#e08d00",
+            "key": "󰌢 AGE",
+            "keyColor": "#CB942E",
         },
         {
             "type": "uptime",
-            "key": "  │Uptime ",
-            "keyColor": "#e08d00"
-        },
-        {
-            "type": "datetime",
-            "key": "  │Date   ",
-            "keyColor": "#e08d00"
+            "key": "  ├",
+            "keyColor": "#CB942E"
         },
         {
             "type": "custom",
             "format": "└{$1}{$1}─{$1}┘",
-            "outputColor": "#e08d00"
+            "outputColor": "#CB942E"
         },
         "break",
         {
+            "type": "custom",
+            "format": "             \u001b[37m██ \u001b[38;2;255;206;83m██ \u001b[38;2;221;176;67m██ \u001b[38;2;191;141;49m██ \u001b[38;2;41;48;46m██ \u001b[38;2;74;66;56m██ \u001b[38;2;96;85;70m██ \u001b[38;2;90;73;55m██"
 
-        }
+        },
+        /*{
+            "type": "custom",
+            "format": "                  \u001b[37m██ \u001b[38;2;255;206;83m⬤ \u001b[38;2;221;176;67m⬤ \u001b[38;2;191;141;49m⬤ \u001b[38;2;41;48;46m⬤ \u001b[38;2;74;66;56m⬤ \u001b[38;2;96;85;70m⬤ \u001b[38;2;90;73;55m⬤"
+
+        },*/
     ]
 }
+
+//all icons (██  ⬤    ◼)
