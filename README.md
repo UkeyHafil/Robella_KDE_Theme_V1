@@ -1,5 +1,7 @@
 # Robella_KDE_Theme_V1
 
+<img width="1920" height="1080" alt="Screenshot_20251106_220510" src="https://github.com/user-attachments/assets/0fa56b9c-c196-4875-8e53-97aff16840f5" />
+
 please be wary that i'm not github master, coding is not my priority yet. so i'm apologize for this mess
 
 i have updated this github wih updated stuff and this is officially one of my fully customize theme. since this is V1. dont expect too much with hyprland, rofi ect.
@@ -10,9 +12,9 @@ and check "show hidden files" on the file manager settings
 --------------------------------------------------------------------------
 Where to put the files: 
 
-.bashrc > /home/
-sm > /home/.conky/simple media
-config.jsonc > /home/.config/fastfetch
+- .bashrc > /home/
+- sm > /home/.conky/simple media 
+- config.jsonc > /home/.config/fastfetch 
 
 --------------------------------------------------------------------------
 Todo if you need to change the logo after downloading the file:
