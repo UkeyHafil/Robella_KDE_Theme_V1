@@ -1,13 +1,23 @@
 # Robella_KDE_Theme_V1
 
-<img width="1920" height="1080" alt="Screenshot_20251106_220510" src="https://github.com/user-attachments/assets/0fa56b9c-c196-4875-8e53-97aff16840f5" />
+![Screenshot_20251106_220510](https://github.com/user-attachments/assets/6dd1393f-236f-47bf-bfea-af31f8b8826e)
 
 please be wary that i'm not github master, coding is not my priority yet. so i'm apologize for this mess
 
 i have updated this github wih updated stuff and this is officially one of my fully customize theme. since this is V1. dont expect too much with hyprland, rofi ect.
 Here is the konsave file: https://limewire.com/d/3B8uF#Oxkv7wV7Hn 
-all below here is gui guides for todo the files.
-and check "show hidden files" on the file manager settings
+but if the link is expired, below here is guides for the themes.
+and for starter, check "show hidden files" on the file manager settings
+
+--------------------------------------------------------------------------
+
+All listed widgets in the screenshot:
+
+- Upper panel:
+  - Shutdown or switch (Davide Sa), Desktop Indicator (Dhruvesh surolia), PlasMusic Toolbar (Claudio Catterina), System tray and Digital Clock (KDE)
+- Down panel:
+  - Icons only Task Manager (KDE)
+
 
 --------------------------------------------------------------------------
 Where to put the files: 
@@ -15,22 +25,16 @@ Where to put the files:
 - .bashrc > /home/
 - sm > /home/.conky/simple media 
 - config.jsonc > /home/.config/fastfetch 
+--------------------------------------------------------------------------
+
+For the decorations,everything is using Breeze Dark with custom accent from my wallpaper. except the window decoration, search "Fluent-round" on KDE Store
 
 --------------------------------------------------------------------------
-Todo if you need to change the logo after downloading the file:
+and here is conky configuration:
 
-1. put the config.jsonc to home/.config/fastfetch (create the fastfetch folder if there are nothing)
-2. find some picture you like and put the file in the same place as config.jsonc
-3. double click config.jsonc to edit the file
-4. find logo source on upper line (line 5) and change the robella.png to your picture name (with extension)
-5. save and open terminal you're using to open fastfetch
-
-if the picture you use is too big, change the logo height below the "source" line
-
---------------------------------------------------------------------------
-how to use the conky
-
-1. go to conky directory (/home/.conky) to create the new folder. name it "simple media"
-2. after downloading the file, put it inside the simple media folder
-3. open conky manager to enable the media by check the file
-4. if there some misfit because the resolution difference,open the sm file and change the gap_x and gap_y value to fit desktop screen. since mine is using 1080p screen
+1. Install conky and Conky manager on your system and close the app
+2. Go to conky directory (/home/.conky) to create the new folder. name it "simple media"
+3. After downloading the file, put it inside the folder that you created
+4. Open conky manager to enable the media by check the file
+5. If there some misfit because the resolution difference,open the sm file and change the gap_x and gap_y value to fit desktop screen. since mine is using 1080p screen with 100% scale
+6. Open the app back and enjoy
